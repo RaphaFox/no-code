@@ -1,0 +1,20 @@
+{
+    "name": "no-code",
+    "version": "0.0.1",
+    "description": "A simple tool to create small apps without coding",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && electron dist/main.js",
+        "watch": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RaphaFox/no-code.git"
+    },
+    "author": "RaphaFox (raphafox.org)",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^21.2.0",
+        "typescript": "^4.9.3"
+    }
+}
